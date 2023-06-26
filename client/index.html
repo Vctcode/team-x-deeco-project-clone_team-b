@@ -6,13 +6,302 @@
 
     <!-- css import -->
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
 
     <!-- font import -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Deeco | Team B</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div class="sticky-nav">
+          <div class="left">
+            <button class="connect-wallet">connect wallet</button>
+            <svg
+              class="search-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+          </div>
+
+          <div class="right">
+            <a href="#">create a store</a>
+
+            <div class="cart">
+              <div class="cart-counter">0</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-nav">
+          <div class="left">
+            <div class="logo">deeco.</div>
+
+            <div class="desktop-menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                />
+              </svg>
+
+              <ul class="menu-list">
+                <li>All products</li>
+                <li>Today's deals</li>
+                <li>Electronics</li>
+                <li>Accessories</li>
+                <li>Deeco fashion</li>
+                <li>Home and kitchen</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="theme-switch">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="dark-mode-switch"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+                ></path>
+                <path
+                  d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+                ></path>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="light-mode-switch"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                />
+              </svg>
+            </div>
+
+            <div class="open-menu" id="open-menu" onclick="openMenu()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  d="M10 3a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 8.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM11.5 15.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+          <ul class="mobile-menu-list">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                />
+              </svg>
+              <span> All products</span>
+              
+            </li>
+            <li>Today's deals</li>
+            <li>Electronics</li>
+            <li>Accessories</li>
+            <li>Deeco fashion</li>
+            <li>Home and kitchen</li>
+            <li>Books and media</li>
+            <li>Office and school supplies</li>
+            <li>Sports and fitness</li>
+            <li>Automotive</li>
+            <li>Agriculture</li>
+            <li>Groceries</li>
+          </ul>
+
+          <div class="close-menu" id="close-menu">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+               
+              >
+                <path
+                  d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"
+                />
+              </svg>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- DEMO TEXT / REMOVE WHEN BUILDING MAIN PAGE -->
+    <div class="main" style="margin: 24px 32px">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quibusdam qui
+      enim harum, labore cupiditate. Animi modi cum, veniam corporis nulla
+      repellat dolorem distinctio, temporibus et vitae inventore cupiditate
+      facere corrupti asperiores saepe, ipsa dolor accusamus iure. Eum nemo
+      explicabo ad, reprehenderit expedita possimus numquam ex aperiam. Suscipit
+      qui fuga cumque. Distinctio quo architecto atque ratione dolorum,
+      excepturi ullam numquam laborum beatae quod facere explicabo ea et eum id
+      in? Recusandae facilis nemo dolores eos beatae nulla reiciendis fuga
+      nostrum, excepturi maiores consequatur provident. Iste dignissimos,
+      voluptate ipsa suscipit eveniet, quasi assumenda quae tenetur possimus id
+      fuga animi earum eius. Sequi molestias cupiditate aliquid voluptas
+      obcaecati amet illum architecto adipisci! Rem maxime unde repudiandae
+      perferendis ullam eveniet omnis ducimus provident neque nostrum saepe,
+      exercitationem, repellat enim laborum harum dignissimos sint assumenda ea
+      aut dolor illo officia natus similique. Ab quam numquam adipisci ipsum.
+      Cum eius, consectetur voluptatem fugit ea necessitatibus explicabo omnis
+      quae accusamus laudantium, assumenda praesentium. Unde cum recusandae iure
+      dolores debitis ex sapiente illum tempore commodi incidunt illo quibusdam,
+      quos esse adipisci ab architecto alias labore? Perspiciatis praesentium
+      voluptatem alias laborum maiores atque corrupti repellendus dolores.
+      Dolore porro voluptatibus non esse repellendus, praesentium labore
+      repudiandae. Facilis consequuntur sed mollitia quisquam perspiciatis ab
+      magnam repellendus quo at nulla ea illo aliquam, nemo ipsa molestias iure
+      voluptate illum error beatae est delectus iusto, magni, commodi natus!
+      Delectus repellat ratione, incidunt ea corporis accusantium rerum dolorum
+      tempora voluptates. Omnis impedit rerum quas officiis et ullam non
+      deserunt temporibus consequuntur, nesciunt, veritatis saepe, pariatur
+      distinctio harum perspiciatis suscipit commodi. Dignissimos delectus,
+      impedit unde magni earum et quod omnis veritatis? Sint recusandae non ex
+      ut natus aspernatur libero quasi veniam fugiat dolore, ratione nihil odio
+      magnam quaerat quod in possimus dolor reiciendis omnis cum adipisci eos,
+      laborum quae? Reprehenderit, aliquid, dolorem ipsum reiciendis veniam
+      nihil omnis vero a, soluta consequuntur asperiores blanditiis ducimus
+      voluptate ratione! Doloribus itaque excepturi a! Vero mollitia facere
+      quisquam! Eos earum impedit inventore laboriosam et esse accusantium
+      aspernatur commodi minima ratione culpa voluptate temporibus possimus,
+      omnis nihil at sequi soluta nobis architecto suscipit corporis quibusdam
+      cumque quam. Atque, natus. Explicabo, voluptatibus inventore labore atque
+      mollitia nam laborum odio cupiditate doloribus, fugit nesciunt illo ullam
+      voluptate voluptatum laudantium dolorum vel praesentium blanditiis dolores
+      pariatur cum. Eos corrupti nisi minima commodi obcaecati quidem debitis
+      quas aliquid nemo odio, ullam voluptas laboriosam? Asperiores nobis fugit,
+      veniam cupiditate officia, provident, aut consectetur suscipit
+      necessitatibus quod unde excepturi consequuntur mollitia ab atque odit
+      vitae illo quasi molestiae sed? Possimus maiores quisquam deleniti
+      reiciendis. Eum esse, officia fuga maxime deserunt numquam doloremque
+      eveniet id, ad alias, vero iusto cumque iste quaerat ullam? Reprehenderit
+      necessitatibus doloremque similique non voluptate, tempore eaque unde
+      culpa excepturi, omnis animi esse est possimus illo natus consequatur
+      aliquid porro exercitationem illum ipsam. Possimus omnis quod numquam
+      harum, pariatur incidunt illum, asperiores perspiciatis cumque sit eius
+      aliquam vitae eos est necessitatibus alias accusamus vero perferendis
+      architecto inventore animi eligendi ducimus. Doloribus porro quasi maxime
+      necessitatibus sequi iste quaerat fuga modi repellendus eos? Deserunt in
+      iure eum, dolorum quisquam eos id rem quae vero. Libero laboriosam
+      similique eum necessitatibus doloremque delectus corrupti distinctio sit?
+      Autem placeat repellat, voluptas omnis, sequi inventore sit dolorum
+      cupiditate neque voluptate illum dolor, odit magni maxime laboriosam
+      accusantium adipisci! Iure saepe dolorum quis, distinctio natus similique
+      reprehenderit blanditiis aut. Nobis nesciunt laborum consequatur
+      distinctio? Id natus, voluptatibus debitis, ratione repellendus, tenetur
+      temporibus voluptate dolor necessitatibus error assumenda iure? Incidunt
+      culpa soluta corrupti nemo maiores exercitationem assumenda rem vero
+      distinctio sint. Dignissimos laboriosam animi assumenda nam exercitationem
+      consequuntur soluta, facilis tenetur illo vitae, voluptatem magni voluptas
+      tempora sit placeat consectetur. Sint consectetur voluptate natus ipsam!
+      Earum ex eligendi asperiores ipsam illo incidunt alias. Tempore omnis non
+      modi voluptatibus vel iusto animi eum illo quas mollitia quae quam, ex
+      incidunt, repellendus enim ad. A minus in voluptatem pariatur! Architecto
+      eum nisi nesciunt delectus eos, laborum iusto. Nobis fugit, debitis non
+      quae quis quibusdam necessitatibus iure aut asperiores, ut fugiat
+      accusantium id cumque harum nam perferendis eaque praesentium. Reiciendis
+      qui culpa iste accusantium, veniam iure consequatur commodi? Ullam quod,
+      quis neque voluptate vero eaque facere asperiores odit odio reprehenderit
+      ut velit repellat officia temporibus, et ea dolore mollitia repudiandae?
+      Ducimus autem ut doloremque et reprehenderit maiores, recusandae totam
+      voluptas alias fuga explicabo facere voluptate officia, odio sunt dolor
+      ipsa debitis quaerat in libero illum temporibus. Ipsum delectus nostrum
+      quisquam totam praesentium voluptates autem, voluptatem recusandae. Rem a
+      ipsa molestiae vel magnam aliquid quasi obcaecati? A vel rem nulla, illum
+      totam doloremque quo exercitationem nostrum ut tenetur fugiat inventore,
+      vero quidem, officiis sed perferendis harum ea repudiandae hic laboriosam!
+      Quaerat, animi? Sit odio deleniti necessitatibus amet! Saepe ipsum aliquid
+      recusandae dolores ab corrupti quae omnis nisi aspernatur rem. Molestiae
+      ducimus eum vel totam dolores sint dolorem quaerat iusto illum odio quod,
+      cupiditate ullam consequatur dicta earum consequuntur! Consequuntur iure
+      praesentium, minima quas quisquam ad cupiditate accusantium ratione.
+      Placeat excepturi ipsum nam ea qui modi voluptas quis ex ducimus. Nobis
+      maiores saepe harum. Delectus, earum est facere veniam eos voluptates
+      facilis dolorem quas debitis nihil soluta expedita autem quae doloribus
+      sint possimus tempora impedit esse cupiditate, ab dolorum! Officiis unde
+      iste ut quidem, commodi dolore praesentium? Ratione molestiae vitae ut
+      laborum dicta, deleniti numquam, recusandae itaque dolorem rerum unde eos
+      excepturi illum nam pariatur ea, omnis consequuntur saepe mollitia.
+      Quisquam quos dignissimos sed tempora repellendus, non sunt fuga dolorum
+      molestiae laudantium commodi ipsum nobis quidem architecto. Tenetur
+      facilis voluptates eum harum. Cum, beatae officiis error nisi non fugit
+      eveniet autem distinctio. Iusto repellendus asperiores sit aspernatur, rem
+      blanditiis consequatur. Quos voluptates repudiandae dolorem possimus illo!
+      Consectetur iste deleniti quae quam tempore alias inventore nobis dicta
+      veritatis reprehenderit? Commodi sunt tempore non quibusdam autem,
+      provident vero unde eum nam cum recusandae beatae fuga amet dolorum, qui
+      natus sapiente et doloribus. Expedita quia, mollitia, harum aliquid velit
+      aut at molestiae corrupti quo a amet, numquam quis magni doloribus
+      distinctio porro illum eveniet nostrum dicta nesciunt! Error accusantium
+      nisi quos officiis delectus nam assumenda, accusamus hic.
+    </div>
+  
+    <script type="module" src="./scripts/nav.js"></script>
+  </body>
 </html>
