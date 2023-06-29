@@ -47,7 +47,7 @@ Remember to keep commit messages short, simple, and straight to the point.
 The following instructions will guide you on how to create pull requests for this project. Please follow them strictly to prevent your pull request from being closed/rejected.
 
 1. Your pull request titles should be according to the following pattern, and they must all be in lower-case letters.
-   “Issue <branch-name> resolved” - e.g
+   “Issue **branch-name** resolved” - e.g
 
    > “issue 250_add-light-and-dark-theme-toggle-is-not-responding-to-clicks resolved”
 
