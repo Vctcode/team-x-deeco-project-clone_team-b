@@ -21,6 +21,11 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* MAIN PAGE STYLES*/
 .hero {
   display: flex;
