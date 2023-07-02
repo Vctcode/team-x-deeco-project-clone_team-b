@@ -28,6 +28,10 @@ nav > .sticky-nav .right {
   gap: 1.5rem;
 }
 
+nav > .sticky-nav .right a {
+  text-decoration: underline;
+}
+
 .connect-wallet {
   border: none;
   font-family: var(--mont);
