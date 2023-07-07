@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/cart.css" />
 
     <!-- font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +18,7 @@
       rel="stylesheet"
     />
 
-    <title>Deeco | Team B</title>
+    <title>Deeco (Cart) | Team B</title>
   </head>
   <body>
     <header>
@@ -194,38 +195,42 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="glass">
-          <h1 class="hero-heading">Shopping With Freedom</h1>
-          <div class="hero-text">
-            No limits | No credit cards | No blockers or watchers.
-            <br />
-            Enjoy the freedom of shopping around the world with just your web3
-            wallet and cryptocurrency!!!
+      <div class="cart-wrapper">
+        <div class="cart-title">
+          <div class="cart-text">My Cart</div>
+
+          <div class="cart-checkout">proceed to checkout</div>
+        </div>
+
+        <div class="cart-item">
+          <div class="cart-image">
+            <img
+              class="img"
+              src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+              alt=""
+            />
           </div>
 
-          <div class="start-shopping-btn">Start Shopping</div>
+          <div class="cart-details">
+            <div class="category">Category: <span>men's clothing</span></div>
+
+            <div class="prod-name">Mens Casual Premium Slim Fit T-Shirts</div>
+
+            <div class="prod-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+              corporis beatae itaque voluptas possimus in animi id dolorem odio,
+              eos consequuntur nesciunt tenetur omnis quae impedit accusamus
+              corrupti ex repellat aut laborum. Provident illo soluta facere. In
+              nihil debitis modi provident officiis ex odit, quos, autem sunt
+              minima fuga tempora.
+            </div>
+
+            <div class="prod-price">0.223 MAT</div>
+
+            <div class="cart-remove">Remove from Cart</div>
+          </div>
         </div>
-      </section>
-
-      <section class="trending-products">
-        <div class="trending-head">
-          <div class="trending-title">Trending Products</div>
-
-          <span
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            minima aliquam est vel placeat quo mollitia? Ut, quis veniam enim
-            pariatur reiciendis iste, voluptatem quos laboriosam expedita vero
-            et dicta?
-          </span>
-        </div>
-
-				<div class="item-wrapper" id="itemWrapper">
-					
-				</div>
-
-        <div class="proceed-to-cart">Proceed to Cart</div>
-      </section>
+      </div>
     </main>
 
     <footer>
@@ -370,6 +375,6 @@
     </footer>
 
     <script type="module" src="./scripts/nav.js"></script>
-		<script type="module" src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
