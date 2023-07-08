@@ -1,0 +1,132 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* gap: 4rem; */
+  margin: 48px auto 0;
+  padding: 1.5rem 2.5rem 7rem;
+}
+
+.picked-wrapper {
+  height: 500px;
+  padding-right: 1.5rem;
+  overflow: auto;
+}
+
+.picked-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.checkout .prod-image {
+  display: flex;
+  width: 30%;
+  height: 100px;
+}
+
+.prod-image img {
+  margin: auto;
+  width: 60px;
+}
+
+.checkout-details {
+  width: 65%;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexbox div {
+    font-size: 1rem;
+    font-family: var(--nun);
+    line-height: 25px;
+}
+
+.checkout-details .prod-desc {
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 400;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: 1px solid rgb(178, 178, 178);
+    padding-top: 24px;
+}
+
+.subtotal, .shipping, .grandtotal {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    font-weight: 600;
+    padding: 24px 0;
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+
+.shipping span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+
+.shipping-details-wrapper {
+    font-weight: 600;
+    padding: 3rem;
+}
+
+.shipping-title {
+    font-size: 18px;
+}
+
+.shipping-form {
+    margin: 28px 0;
+}
+
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin-bottom: 24px;
+}
+
+.form-group input {
+    width: 250px;
+    padding: 12px 0;
+    font-size: 16px;
+    font-family: var(--nun);
+    border: none;
+    border-bottom: 1px solid rgb(178, 178, 178);
+    outline: none;
+}
+
+.home-address {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.home-address input {
+    width: 100%;
+}
+
+.shipping-form button {
+    width: 100%;
+    background: var(--purple);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
