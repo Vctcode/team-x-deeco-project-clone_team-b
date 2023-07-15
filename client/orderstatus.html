@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/order-status.css" />
 
     <!-- font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +18,7 @@
       rel="stylesheet"
     />
 
-    <title>Deeco | Team B</title>
+    <title>Deeco (Order-status) | Team B</title>
   </head>
   <body>
     <header>
@@ -194,38 +195,36 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="glass">
-          <h1 class="hero-heading">Shopping With Freedom</h1>
-          <div class="hero-text">
-            No limits | No credit cards | No blockers or watchers.
-            <br />
-            Enjoy the freedom of shopping around the world with just your web3
-            wallet and cryptocurrency!!!
-          </div>
-
-          <a href="./allproducts.html"
-            ><div class="start-shopping-btn">Start Shopping</div></a
+      <section class="order-status">
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="check-badge"
           >
-        </div>
-      </section>
-
-      <section class="trending-products">
-        <div class="trending-head">
-          <div class="trending-title">Trending Products</div>
-
-          <span
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            minima aliquam est vel placeat quo mollitia? Ut, quis veniam enim
-            pariatur reiciendis iste, voluptatem quos laboriosam expedita vero
-            et dicta?
-          </span>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+            />
+          </svg>
         </div>
 
-        <div class="item-wrapper" id="itemWrapper"></div>
+        <div class="order-text-wrapper">
+          <div class="ot-head">THANKS A LOT FOR YOUR PATRONAGE</div>
 
-        <a href="./cart.html">
-          <div class="proceed-to-cart">Proceed to Cart</div>
+          <div class="ot-message">
+            Your order has been created.<br />
+            We will send you an order confirmation with more details and
+            tracking info via email shortly.
+          </div>
+        </div>
+
+        <a href="./allproducts.html">
+          <div class="cont-shopping">Continue Shopping</div>
         </a>
       </section>
     </main>
