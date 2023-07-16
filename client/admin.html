@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/admin.css" />
 
     <!-- font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,7 +18,8 @@
       rel="stylesheet"
     />
 
-    <title>Deeco | Team B</title>
+    <title>Deeco (Admin) | Team B</title>
+
   </head>
   <body>
     <header>
@@ -44,7 +46,7 @@
 
           <div class="right">
             <a href="./admin.html">create a store</a>
-
+            
             <a href="./cart.html">
               <div class="cart">
                 <div class="cart-counter">0</div>
@@ -194,38 +196,13 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="glass">
-          <h1 class="hero-heading">Shopping With Freedom</h1>
-          <div class="hero-text">
-            No limits | No credit cards | No blockers or watchers.
-            <br />
-            Enjoy the freedom of shopping around the world with just your web3
-            wallet and cryptocurrency!!!
-          </div>
+      <section class="admin-wrapper">
+        <div class="ad-head">Total Wallet Balance</div>
 
-          <a href="./allproducts.html"
-            ><div class="start-shopping-btn">Start Shopping</div></a
-          >
-        </div>
-      </section>
+        <div class="ad-amount">1000 MATIC</div>
 
-      <section class="trending-products">
-        <div class="trending-head">
-          <div class="trending-title">Trending Products</div>
-
-          <span
-            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-            minima aliquam est vel placeat quo mollitia? Ut, quis veniam enim
-            pariatur reiciendis iste, voluptatem quos laboriosam expedita vero
-            et dicta?
-          </span>
-        </div>
-
-        <div class="item-wrapper" id="itemWrapper"></div>
-
-        <a href="./cart.html">
-          <div class="proceed-to-cart">Proceed to Cart</div>
+        <a href="#">
+          <div class="ad-withdraw">withdraw funds</div>
         </a>
       </section>
     </main>
@@ -372,6 +349,5 @@
     </footer>
 
     <script type="module" src="./scripts/nav.js"></script>
-    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>

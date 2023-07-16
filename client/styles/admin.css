@@ -1,0 +1,65 @@
+.admin-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 7rem auto 20rem;
+  padding: 3rem 1rem;
+  width: max-content;
+  box-shadow: 0 0 15px 2px rgb(0 0 0 / 5%);
+}
+
+.ad-head {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.ad-amount {
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+  font-weight: 600;
+}
+
+.ad-withdraw {
+  font-size: 16px;
+  font-family: var(--nun);
+  font-weight: 700;
+  color: #fff;
+  background: var(--purple);
+  padding: 12px 24px;
+  width: 400px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  main {
+      height: 80vh;
+  }
+
+  .admin-wrapper {
+    gap: 24px;
+    margin: 8rem auto 0rem;
+  }
+
+  .order-text-wrapper {
+    gap: 8px;
+  }
+
+  .ad-head {
+    font-size: 18px;
+  }
+
+  .ad-amount {
+    font-size: 14px;
+  }
+
+  .ad-withdraw {
+    padding: 10px 20px;
+    width: 300px;
+  }
+}
