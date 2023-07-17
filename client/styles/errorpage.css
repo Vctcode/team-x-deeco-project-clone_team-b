@@ -47,3 +47,18 @@ main {
   text-decoration: underline;
   font-style: italic;
 }
+
+
+@media screen and (max-width: 769px) {
+    main {
+        padding: 8rem 0rem;
+      }  
+
+
+      .er-text {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 1rem;
+      }
+      
+}
