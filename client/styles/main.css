@@ -210,6 +210,7 @@ a {
 @media screen and (min-width: 1024px) {
   .item-wrapper {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* grid-template-columns: repeat(3, minmax(0, 2.5fr)); */
     justify-content: space-between;
     align-items: center;
@@ -246,6 +247,7 @@ a {
 
 .item-wrapper {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* grid-template-columns: repeat(2, minmax(0, 370px)); */
   justify-content: space-between;
   align-items: center;
