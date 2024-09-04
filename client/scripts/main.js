@@ -24,7 +24,7 @@ async function getProducts() {
         <div class="product-details">
             <span class="category">${category}</span>
             <div class="image-wrapper">
-                <img class="img" src="${image}" alt="backpack" />
+                <img class="img" src="${image}" alt="product image" />
             </div>
             <div class="prod-name">
                 ${newTitle}
@@ -37,7 +37,7 @@ async function getProducts() {
 
         <div class="add-to-cart">Add to Cart</div>
     </div>`;
-  });
+  }).join("");
 
   itemWrapper.innerHTML = products;
 }
