@@ -106,7 +106,7 @@ a {
 
 .item-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 400px) 0);
+  grid-template-columns: repeat(3, minmax(0, 400px));
   column-gap: 1rem;
   row-gap: 2.5rem;
   margin: 2.5rem 0 0 0;
@@ -209,7 +209,7 @@ a {
 @media screen and (min-width: 1024px) {
   .item-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 2.5fr) 0);
+    grid-template-columns: repeat(3, minmax(0, 2.5fr));
     justify-content: space-between;
     align-items: center;
     row-gap: 1.5rem;
